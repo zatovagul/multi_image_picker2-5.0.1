@@ -101,7 +101,7 @@ public class SwiftMultiImagePicker2Plugin: NSObject, FlutterPlugin {
             vc.settings.selection.max = maxImages
 
             if (enableCamera) {
-//                vc.takePhotos = true
+                vc.takePhotos = true
             }
             
             if let takePhotoIcon = options["takePhotoIcon"] {
